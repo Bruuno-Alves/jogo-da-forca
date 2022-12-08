@@ -1,0 +1,15 @@
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\bin\Debug\net6.0\Forca.exe
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\bin\Debug\net6.0\Forca.deps.json
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\bin\Debug\net6.0\Forca.runtimeconfig.json
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\bin\Debug\net6.0\Forca.dll
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\bin\Debug\net6.0\Forca.pdb
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\obj\Debug\net6.0\Forca.csproj.AssemblyReference.cache
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\obj\Debug\net6.0\Forca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\obj\Debug\net6.0\Forca.AssemblyInfoInputs.cache
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\obj\Debug\net6.0\Forca.AssemblyInfo.cs
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\obj\Debug\net6.0\Forca.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\obj\Debug\net6.0\Forca.dll
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\obj\Debug\net6.0\refint\Forca.dll
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\obj\Debug\net6.0\Forca.pdb
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\obj\Debug\net6.0\Forca.genruntimeconfig.cache
+C:\Users\bruno\Documents\Curso Programação\Ada\projeto-logica\Forca\Forca\obj\Debug\net6.0\ref\Forca.dll
