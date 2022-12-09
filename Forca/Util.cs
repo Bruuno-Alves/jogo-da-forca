@@ -52,14 +52,15 @@ namespace Forca
                 {
                     Console.WriteLine($"\nA letra '{letra}' não existe na palavra chave.");
                     erros++;
-                    Console.WriteLine("\nPressione qualquer tecla para continuar.");
+                    chances--;
+                    Console.WriteLine("\nPressione ENTER para continuar.");
                     Console.ReadKey();
                 }
             }
             else
             {
-                Console.WriteLine("\nLetra já informada. Tente uma nova letra.");
-                Console.WriteLine("\nPressione qualquer tecla para continuar.");
+                Console.WriteLine("\nLetra já informada. Tente uma novamente...");
+                Console.WriteLine("\nPressione ENTER para continuar.");
                 Console.ReadKey();
             }
         }
@@ -72,14 +73,14 @@ namespace Forca
             {
                 Console.Clear();
                 Console.WriteLine($"\nA palavra chave é: {palavraChave.ToUpper()}");
-                Console.WriteLine("\nParabéns! Você venceu!");
+                Console.WriteLine("\nPARABÉNS! Você venceu!");
                 continua = false;
-                Console.WriteLine("\nPressione qualquer tecla para continuar.");
+                Console.WriteLine("\nFIM!");
                 Console.ReadKey();
             }
             //verifica se o número de erros é igual ao número de chances
             //derrota
-            else if (erros == chances)
+            else if (erros == 6)
             {
                 throw new Exception();
             }
