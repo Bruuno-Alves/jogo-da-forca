@@ -31,10 +31,10 @@
             //cria um booleano de continuação
             bool continua = true;
 
-            //coloca '-' (traços) no array de char 'oculta'
+            //coloca '_' (underlines) no array de char 'oculta'
             for (int i = 0; i < palavraChave.Length; i++)
             {
-                oculta[i] = '-';
+                oculta[i] = '_';
             }
 
             //cria a variável para controle das letras que serão digitadas
@@ -53,11 +53,11 @@
                 //imprime o desenho do enforcado de acordo com o numero de erros
                 View.imprimirEnforcado(erros);
 
-                //imprime quantidade de erros e chances totais
-                Console.WriteLine($"\nErros / Chances: {erros} / {chances}\n");
-
-                //imprime o tema
-                Console.WriteLine($"Tema: {tema.ToUpper()}\n");
+                //imprime quantidade de erros e chances disponíveis
+                Console.WriteLine($"\nATENÇÃO -> {erros} erros cometidos - {chances} chances disponíveis \n\n");
+                
+                //imprime o número de letras a serem acertadas e o tema em que a palavra se refere
+                Console.WriteLine($"\n\nSua palavra possui {palavraChave.Length} letras e o tema é {tema.ToUpper()}\n");
 
                 //imprime a palavra com traços
                 Console.WriteLine(oculta);
@@ -81,9 +81,10 @@
                 } catch
                 {
                     Console.Clear();
-                    Console.WriteLine("\nQue pena. Você perdeu.\n");
                     View.imprimirEnforcado(erros);
-                    Console.WriteLine("\nPressione qualquer tecla para continuar.");
+                    Console.WriteLine("\nDEU FORCA... Você perdeu.\n");
+                    Console.WriteLine($"\nA palavra chave era {palavraChave.ToUpper()}\n");
+                    Console.WriteLine("\nFIM!");
                     Console.ReadKey();
                 }
                 
