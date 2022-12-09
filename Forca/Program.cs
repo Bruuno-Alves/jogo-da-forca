@@ -43,7 +43,7 @@
             char[] letrasDigitadas = new char[26];
 
             //estrutura de repetição principal do jogo
-            while ((erros < chances) && continua)
+            while ((erros < 6) && continua)
             {
                 View.imprimirDesenhoForca();
 
