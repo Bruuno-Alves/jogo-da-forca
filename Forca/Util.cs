@@ -22,6 +22,7 @@ namespace Forca
                 Console.WriteLine("\nDigite uma letra:");
                 char.TryParse(Console.ReadLine().ToUpper(), out letra);
                 verificaLetra = char.IsLetter(letra);
+                Console.WriteLine("\nCaracter inválido...");
             } while (!verificaLetra);
 
             return letra;
@@ -59,7 +60,7 @@ namespace Forca
             }
             else
             {
-                Console.WriteLine("\nLetra já informada. Tente uma novamente...");
+                Console.WriteLine("\nLetra já foi digitada. Tente uma novamente...");
                 Console.WriteLine("\nPressione ENTER para continuar.");
                 Console.ReadKey();
             }
